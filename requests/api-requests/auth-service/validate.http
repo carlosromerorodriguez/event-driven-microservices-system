@@ -1,0 +1,5 @@
+### GET request to validate JWT
+GET http://localhost:5004/auth/validate
+Authorization: Bearer {{token}}
+
+###

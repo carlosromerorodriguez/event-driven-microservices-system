@@ -1,0 +1,6 @@
+### GET request to get all clients
+#GET http://localhost:5004/api/customers
+GET http://lb-f9626ac0.elb.localhost.localstack.cloud:5004/api/customers
+Authorization: Bearer {{token}}
+
+###

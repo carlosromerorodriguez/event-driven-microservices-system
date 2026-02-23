@@ -1,0 +1,6 @@
+### DELETE request to delete a customer
+@id = b37f1eb5-3e27-4258-97ec-88e5736812cc
+DELETE http://localhost:5000/customers/{{id}}
+Content-Type: application/json
+
+###

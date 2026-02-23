@@ -1,0 +1,15 @@
+### POST request to create a new customer
+#POST http://localhost:5000/customers
+POST http://lb-f9626ac0.elb.localhost.localstack.cloud:5004/api/customers
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Carlos Romero",
+  "email": "carlos123@gmail.com",
+  "address": "Main Street 123",
+  "dateOfBirth": "1990-01-17",
+  "registeredDate": "2026-01-17"
+}
+
+###

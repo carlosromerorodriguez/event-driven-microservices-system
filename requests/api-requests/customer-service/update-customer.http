@@ -1,0 +1,12 @@
+### POST request to update an existing customer
+@id = b7ca288e-cd8f-4ab7-b32e-22556ba1e948
+POST http://localhost:5000/customers/{{id}}
+Content-Type: application/json
+
+{
+  "name": "Customer 99999999",
+  "email": "car99999999@gmail.com",
+  "address": "Customer9999999 Street",
+  "dateOfBirth": "1990-01-01"
+}
+###
